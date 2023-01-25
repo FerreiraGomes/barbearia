@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #352b27;
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgba(255, 26, 26, 0);
+    color: #ecf0f1;
+}
+
+header img {
+    height: 65px;
+    margin-left: 50px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 90px;
+    margin-right: 100px;
+    font-size: 18px;
+}
+
+header nav li a {
+    font-family: 'Fira Sans', sans-serif;
+    color: #9b7b5f;
+    text-decoration: none;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.barbershop {
+    height: 550px;
+    position: absolute;
+    margin-left: 175px;
+    z-index: 1;
+}
+
+.container-2 {
+    background-color: #6c5846;
+    height: 550px;
+    width: 1000px;
+    position: absolute;
+    margin-left: 360px;
+    margin-top: 100px;
+    z-index: 0;
+}
+
+.container-3 {
+    background-color: #9b7b5f;
+    height: 350px;
+    width: 800px;
+    position: absolute;
+    margin-left: 117px;
+    margin-top: 400px;
+    z-index: 2;
+}
+
+section h2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 65px;
+    color: #f9fffb;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+section p {
+    font-family: 'Noto Serif', serif;
+    color: #e4c3a6;
+    margin-top: 10px;
+    margin-left: 65px;
+}
+
+section button.button1 {
+    height: 65px;
+    color: #9b7b5f;
+    margin-top: 50px;
+    margin-left: 65px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+}
+
+section button.button1:hover {
+    background-color: #352b27;
+}
+
+#element {
+    height: 800px;
+}
+
+#about {
+    height: 300px;
+    background-color: #696969;
+}
+
+.cutting-hair {
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+
+section h1{
+    font-family: 'Fira Sans', sans-serif;
+    color: #A9A9A9;
+    font-size: 30px;
+    margin-left: 150px;
+
+}
+
+.two {
+    color: #A9A9A9;
+}
+
+.container-4 {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-h3,
+h3{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 30px;
+    color: #A9A9A9;
+    margin-top: 30px;
+    margin-left: 500px;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form input,
+form label,
+#servicos{
+    height: 40px;
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form {
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+section button.button2 {
+    height: 50px;
+    width: 120px;
+    color: #9b7b5f;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 50px;
+}
+
+form input,
+select#servicos {
+    margin-left: 30px;
+}
+
+section #contact {
+    height: 500px;
+}
+
+.contact{
+    margin-top: 30px;
+    height: 300px;
+    display: flex;
+}
+
+form label, 
+input {
+    font-family: 'Fira Sans', sans-serif;
+    color: #A9A9A9;
+    margin-left: 21px;
+}
+
+button.button2 {
+    position: absolute;
+    margin-top: 235px;
+    margin-left: 485px;
+}
+
+select#servicos {
+    font-family: 'Fira Sans', sans-serif;
+    color: #A9A9A9;
+}
+
+.social-links img {
+    height: 50px;
+    margin-top: 10px;
+}
+
+.div-social {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact-2 {
+    height: 400px;
+    background-color: #696969;
+}
+
+.contact-2 {
+    position: absolute;
+    margin-bottom: 230px;
+    margin-left: 550px;
+}
+
+.social-links1 {
+    margin-top: 120px;
+    margin-left: 460px;
+}
+
+section ul {
+    font-family: 'Fira Sans', sans-serif;
+    color: #A9A9A9;
+    list-style: none;
+}
